@@ -28,9 +28,9 @@ public class CheckingInputData {
             if (Character.isDigit(a)){
                 count++;
             }
-            if (count == 0){
-                throw new WrongPasswordException("The password must contain at least one digit", 202);
-            }
+        }
+        if (count == 0){
+            throw new WrongPasswordException("The password must contain at least one digit", 202);
         }
         if (!password.equals(confirmPassword)){
             throw new WrongPasswordException("Passwords must be the same",203);

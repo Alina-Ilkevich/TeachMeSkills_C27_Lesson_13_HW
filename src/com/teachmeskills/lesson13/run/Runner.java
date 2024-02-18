@@ -7,6 +7,6 @@ import com.teachmeskills.lesson13.service.UserRegistrationService;
  */
 public class Runner {
     public static void main(String[] args) {
-        UserRegistrationService.registerUser("AliNa", "2ali2na", "2ali2na");
+        UserRegistrationService.registerUser("AliNa", "ali2na", "ali2na");
     }
 }
